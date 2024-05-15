@@ -1,4 +1,4 @@
-#  Contracts fot NFT(ERC 720) with minting tiers and stacking with upgradable DAO
+#  Contracts fot NFT(ERC 720) with minting tiers and stacking and with upgradable DAO
 
 The contracts are used to mint, stake VIP cards
 
