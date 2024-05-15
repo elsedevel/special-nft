@@ -1,0 +1,40 @@
+{
+  "name": "NFT VIP Cards",
+  "scripts": {
+    "node": "node ./node_modules/hardhat/internal/cli/cli.js node",
+    "deploy": "node ./node_modules/hardhat/internal/cli/cli.js run --network mumbai scripts/deploy/deploy.js",
+    "deploy-partner": "node ./node_modules/hardhat/internal/cli/cli.js run --network mumbai scripts/deploy/deploy_partner.js",
+    "build": "node ./node_modules/hardhat/internal/cli/cli.js compile",
+    "test": "node ./node_modules/hardhat/internal/cli/cli.js test",
+    "test:cov": "node ./node_modules/hardhat/internal/cli/cli.js coverage"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.1",
+    "@nomiclabs/hardhat-etherscan": "^3.0.3",
+    "@nomiclabs/hardhat-truffle5": "^2.0.0",
+    "@nomiclabs/hardhat-web3": "^2.0.0",
+    "@openzeppelin/hardhat-upgrades": "^1.18.0",
+    "bn.js": "^5.2.0",
+    "chai": "^4.3.4",
+    "chai-as-promised": "^7.1.1",
+    "chai-bn": "^0.3.0",
+    "cli-ux": "^5.6.3",
+    "command-line-args": "^5.2.0",
+    "command-line-usage": "^6.1.1",
+    "dotenv": "^10.0.0",
+    "erc721a": "^4.2.3",
+    "hardhat": "^2.4.3",
+    "hardhat-etherscan": "^1.0.1",
+    "solidity-coverage": "^0.7.16",
+    "time-ago": "^0.2.1",
+    "toposort": "^2.0.2",
+    "web3": "^1.4.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.2.0",
+    "@openzeppelin/contracts-upgradeable": "^4.6.0",
+    "@openzeppelin/test-helpers": "^0.5.15",
+    "base64-sol": "^1.1.0",
+    "operator-filter-registry": "^1.3.0"
+  }
+}
